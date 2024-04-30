@@ -1,0 +1,33 @@
+/*
+.btn {
+  background-color: #008cba;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 5px;
+}
+*/
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image {
+  max-width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  font-family: "Arial";
+  margin: 0;
+}
