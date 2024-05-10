@@ -1,0 +1,173 @@
+React JS:
+
+Node JS is required to run the react applications
+- Open source cross platform JS runtime env
+
+check version: node -v
+
+NPM - axios 
+npm i axios -- to install then import into js class file 
+
+Project Setup:
+VS Code -> 
+
+npx create-react-app notes-app
+
+npx- node package executor
+package.json - similar to pom.xml
+node_modules - all dependencies downloads
+
+single page app - single index.html file / app.js file  
+
+Hooks allow function components to have access to state and other React features
+
+React, useEffect , and useState 
+
+
+function Login(){
+return (
+<h3> Login </h3>
+)
+
+class - className
+index.html ==> route.render function (
+...
+
+let [searchTxt, setSearchTxt]=useState('')
+
+searchTxt - variable
+setSearchTxt - Method for the variable
+===========================================
+npm i react-router-dom = For routing the pages
+
+index.html:
+Routes 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+==========================
+
+Creating Components
+-> create .js file in src folder
+-> create function
+
+Two rules:
+Multiple elements into a single tag (div or tags)
+class - className (already class keyword in js)
+
+https://dev.to/femi_dev/how-to-use-axios-with-react-5fom
+
+Advantages:
+Single Page applications
+Easy Rendering 
+All html & js into a single file 
+functions acts as a component made it easy 
+Hooks for importing 
+
+
+HTML STRUCTURE:
+
+<DOCTYPE html>
+<html> 
+<head>
+<title></title>
+
+</head>
+<body>
+
+<table>
+<tr><td></td><tr>
+
+</body>
+
+</html>
+
+
+UI - 
+Backend -
+
+
+Interview Questions:
+====================
+1)HTML vs HTML5
+
+2)Semantic HTML tags are tags that define the meaning of the content they contain. 
+For example, tags like <header>, <article>, and <footer> are semantic HTML tags. 
+- it helps in search enginer optimization ? 
+
+3) Tag vs Element
+Tag : < and > symbols and element inside it.
+content along with tag - element 
+4) Attributes 
+- Used to define the characteristics / available at starting opening tag 
+<p align="center">This is paragraph.</p>
+5) Div and Span
+Div - block level element takes the entire row
+Span - element within that scope , inline organization and styling
+<img tag 
+
+6) CSS 
+7) Specificity - priority of the selectors which are applied first 
+8) default of position property: static
+9) CSS Flexible Box Layout, commonly known as Flexbox, is a CSS web layout model.
+
+A Flexible Layout must have a parent element with the display property set to flex.
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+10) Box Model
+box-sizing: border-box; 
+
+box-sizing: content-box;
+
+11) Why Javascript - to make the page interactive
+12) Data types in Javascript - 
+keywords : var, let,const 
+primitive data types 
+String
+Number
+Bigint
+Boolean
+Undefined
+Null
+Symbol
+non primitive data types: 
+Object
+Array
+
+
+BOX MODEL
+ID(unique-#-more priority) and Class(.)
+
+VAR vs Let vs Const 
+
+
+Margin
+Border
+Padding
+Content
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+ 
+
+Callback Function
+Async
+Await
+Promises
+AJAX
+ES6 Features
+SAAS 
+
+=============
+I came from an electronics background, although i got intrested to software development so 
+3 yrs of experience in IT industry 
+Internship - 5months during my 4-2 (a fullstack app but with Java,jdbc,servelts)
+I have been into Oracle Middle support project where very a few dev were exists,
+Last 1 year I got an opprtunity when i was trying to shift to dev project which i am intrested
+
+in Vue/React 
